@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>炭火牛たん 雅 | 仙台牛たん専門店</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <section class="hero seigaiha">
+    <div class="hero-frame">
+      <p class="vertical catch">備長炭で焼き上げる、至高の牛たん。</p>
+      <h1 class="vertical shop-name">炭火牛たん雅</h1>
+      <p class="vertical shop-sub">仙台牛たん専門店</p>
+    </div>
+    <div class="en">SUMIBI GYUTAN MIYABI</div>
+
+    <section class="search-panel">
+      <h2>お問い合わせ</h2>
+      <p>お知りになりたいことをお書きください。該当するページへご案内いたします。</p>
+      <form class="search-form" action="SearchServlet" method="post" accept-charset="UTF-8">
+        <input type="text" name="inquiry" maxlength="200"
+               placeholder="例：定休日はいつですか？"
+               autocomplete="off">
+        <button type="submit">送信</button>
+      </form>
+    </section>
+
+    <div class="scroll-hint">SCROLL</div>
+  </section>
+
+  <nav class="site-nav" style="justify-content:center; padding:26px 0; border-bottom:1px solid var(--sumi-line);">
+    <a href="overview.jsp">概略</a>
+    <a href="menu.jsp">メニュー</a>
+    <a href="mailorder.jsp">通販</a>
+  </nav>
+
+  <main>
+    <section class="section">
+      <h2 class="section-title">雅のこだわり</h2>
+      <p class="section-lead">一枚の牛たんに、三つの誓いを。</p>
+      <div class="concept">
+        <div class="concept-item">
+          <div class="no">壱</div>
+          <h3>厳選素材</h3>
+          <p>肉質のやわらかな牛たんの芯の部分だけを選び抜き、ひとつひとつ職人が手で仕込みます。</p>
+        </div>
+        <div class="concept-item">
+          <div class="no">弐</div>
+          <h3>熟成の技</h3>
+          <p>塩とわずかな香辛料で寝かせ、旨みを引き出します。噛むほどに広がる深い味わいをお届けします。</p>
+        </div>
+        <div class="concept-item">
+          <div class="no">参</div>
+          <h3>備長炭焼き</h3>
+          <p>遠赤外線でじっくり焼き上げ、外は香ばしく、中は驚くほどジューシーに仕上げます。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="brand-name">炭火牛たん 雅</span>
+    <p>&copy; 2026 Sumibi Gyutan Miyabi. 学習課題用のサンプルサイトです。</p>
+  </footer>
+
+</body>
+</html>

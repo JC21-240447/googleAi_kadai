@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%-- 共通ヘッダー。呼び出し側で request 属性 "active" (overview / menu / mailorder) を設定する --%>
+<%
+    String active = (String) request.getAttribute("active");
+    if (active == null) { active = ""; }
+%>
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="hanko">雅</span>
+    <span class="brand-name">炭火牛たん 雅<small>SUMIBI GYUTAN MIYABI</small></span>
+  </a>
+  <nav class="site-nav">
+    <a href="index.html">トップ</a>
+    <a href="overview.jsp" class="<%= "overview".equals(active) ? "active" : "" %>">概略</a>
+    <a href="menu.jsp" class="<%= "menu".equals(active) ? "active" : "" %>">メニュー</a>
+    <a href="mailorder.jsp" class="<%= "mailorder".equals(active) ? "active" : "" %>">通販</a>
+  </nav>
+</header>

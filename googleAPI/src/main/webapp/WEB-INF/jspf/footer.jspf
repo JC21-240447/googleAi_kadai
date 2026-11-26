@@ -1,0 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<footer class="site-footer">
+  <span class="brand-name">炭火牛たん 雅</span>
+  <p>&copy; 2026 Sumibi Gyutan Miyabi. 学習課題用のサンプルサイトです。</p>
+</footer>

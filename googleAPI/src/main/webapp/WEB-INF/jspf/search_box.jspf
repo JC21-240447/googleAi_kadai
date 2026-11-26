@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%-- 共通：問い合わせ入力テキストボックス（SearchServlet へ POST） --%>
+<section class="search-panel">
+  <h2>お問い合わせ</h2>
+  <p>お知りになりたいことをお書きください。該当するページへご案内いたします。</p>
+  <form class="search-form" action="SearchServlet" method="post" accept-charset="UTF-8">
+    <input type="text" name="inquiry" maxlength="200"
+           placeholder="例：定休日はいつですか？"
+           autocomplete="off">
+    <button type="submit">送信</button>
+  </form>
+</section>
